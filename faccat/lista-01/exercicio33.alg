@@ -5,15 +5,15 @@ algoritmo "Exercicio33"
 // Autor(a) : Nome do(a) aluno(a
 // Data atual : ${DATA_ATUAL}/${MES_ATUAL}/${ANO_ATUAL
 var
-    n1: inteiro
-    n2: inteiro
+    numero1: inteiro
+    numero2: inteiro
 inicio
     escreval("escreva dois números: ")
-        leia(n1, n2)
-    se (n1 = n2) entao
+        leia(numero1, numero2)
+    se (numero1 = numero2) entao
         escreval("Números iguais")
      senao
-        se (n1 > n2) entao
+        se (numero1 > numero2) entao
             escreva("Primeiro é maior")
          senao
             escreva("Segundo é maior")

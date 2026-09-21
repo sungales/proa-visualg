@@ -6,31 +6,31 @@ algoritmo "Exercicio29"
 // Data atual  : ${DATA_ATUAL}/${MES_ATUAL}/${ANO_ATUAL}
 var
 
-n1: real
-n2: real
-n3: real
+numero1: real
+numero2: real
+numero3: real
 soma: real
 
 inicio
 
     escreval("escreva 3 números: ")
-        leia(n1, n2, n3)
+        leia(numero1, numero2, numero3)
 
-    se (n1 = n2) ou (n1 = n3) ou (n2 = n3) entao
+    se (numero1 = numero2) ou (numero1 = numero3) ou (numero2 = numero3) entao
         escreva("os números não podem ser iguais")
     senao
-        se (n1 < n2) e (n1 < n3) entao
-            soma <- n2 + n3
+        se (numero1 < numero2) e (numero1 < numero3) entao
+            soma <- numero2 + numero3
             escreva("os dois maiores são o numero 2 e o numero 3: ", soma)
         senao
-            se(n2 < n1) e (n2 < n3) entao
-                soma <- n1 + n3
+            se(numero2 < numero1) e (numero2 < numero3) entao
+                soma <- numero1 + numero3
                 escreva("os dois maiores são o numero 1 e o numero 3: ", soma)
             senao
-                soma <- n1 + n2
+                soma <- numero1 + numero2
                 escreva("os dois maiores são o numero 1 e o numero 2: ", soma)
             fimse
         fimse
     fimse
-    
+
 fimalgoritmo

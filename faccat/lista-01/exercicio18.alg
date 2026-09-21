@@ -19,11 +19,11 @@ inicio
 
     valor <- ano_atual - nascimento
     se (valor >= 16) entao
-        escreva("Pode votar, sua idade é: ", valor)
+        escreva("Pode votar sua idade é: ", valor)
     senao
         escreva("Não pode votar")
     fimse
-    
+
 
 
 fimalgoritmo

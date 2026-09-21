@@ -5,24 +5,24 @@ algoritmo "Exercicio19"
 // Autor(a) : Nome do(a) aluno(a
 // Data atual : ${DATA_ATUAL}/${MES_ATUAL}/${ANO_ATUAL
 var
-    n1: inteiro
-    n2: inteiro
+    numero1: inteiro
+    numero2: inteiro
 
 inicio
 
     escreval("Valor número 1: ")
-        leia(n1)
+        leia(numero1)
     escreval("Valor número 2: ")
-        leia(n2)
+        leia(numero2)
 
-    se (n1 = n2) entao
+    se (numero1 = numero2) entao
         escreva("Os números nao podem ser iguais")
     senao
-        se (n1 > n2) entao
+        se (numero1 > numero2) entao
             escreva("o número 1 é maior que o número 2")
         senao
             escreva("o número 2 é maior que o número 1")
         fimse
     fimse
-    
+
 fimalgoritmo

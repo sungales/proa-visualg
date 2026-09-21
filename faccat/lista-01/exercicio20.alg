@@ -5,20 +5,20 @@ algoritmo "Exercicio20"
 // Autor(a) : Nome do(a) aluno(
 // Data atual : ${DATA_ATUAL}/${MES_ATUAL}/${ANO_ATUA
 var
-    n1: inteiro
-    n2: inteiro
+    numero1: inteiro
+    numero2: inteiro
 inicio
     escreval("Valor número 1: ")
-        leia(n1)
+        leia(numero1)
     escreval("Valor número 2: ")
-        leia(n2)
-    se (n1 = n2) entao
+        leia(numero2)
+    se (numero1 = numero2) entao
         escreva("Os números nao podem ser iguais")
      senao
-        se (n1<n2) entao
-            escreva(n1, " ", n2)
+        se (numero1<numero2) entao
+            escreva(numero1, " ", numero2)
          senao
-            escreva(n2, " ", n1)
+            escreva(numero2, " ", numero1)
         fimse
     fimse
 

@@ -5,23 +5,23 @@ algoritmo "Exercicio28"
 // Autor(a) : Nome do(a) aluno(a
 // Data atual : ${DATA_ATUAL}/${MES_ATUAL}/${ANO_ATUAL
 var
-    n1: real
-    n2: real
-    n3: real
+    numero1: real
+    numero2: real
+    numero3: real
 inicio
     escreval("Escreva 3 números: ")
-        leia(n1, n2, n3)
-    se (n1 = n2) e (n2 = n3) entao
+        leia(numero1, numero2, numero3)
+    se (numero1 = numero2) e (numero2 = numero3) entao
         escreva("os numeros nao podem ser iguais")
     fimse
-    
-    se (n1 > n2) e (n1 > n3) entao
+
+    se (numero1 > numero2) e (numero1 > numero3) entao
         escreva("o número 1 é maior que os outros números")
      senao
-        se (n2 > n1) e (n2 > n3) entao
+        se (numero2 > numero1) e (numero2 > numero3) entao
             escreva("o número 2 é maior que os outros números")
          senao
-            se (n3 > n1 e n2) entao
+            se (numero3 > numero1 e numero2) entao
                 escreva("o número 3 é maior que os outros números")
             fimse
         fimse

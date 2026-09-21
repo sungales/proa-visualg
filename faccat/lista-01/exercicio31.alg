@@ -6,25 +6,22 @@ algoritmo "Exercicio31"
 // Data atual  : ${DATA_ATUAL}/${MES_ATUAL}/${ANO_ATUAL}
 var
 
-n1: real
-n2: real
-n3: real
+numero1: real
+numero2: real
+numero3: real
 triangulo: logico
 
 inicio
 
     escreval("medidas dos lados de um triângulo")
-        leia(n1, n2, n3)
-    
+        leia(numero1, numero2, numero3)
 
-    se (n1 < n2 + n3) e (n2 < n1 + n3) e (n3 < n1 + n2) entao
+    se (numero1 < numero2 + numero3) e (numero2 < numero1 + numero3) e (numero3 < numero1 + numero2) entao
         triangulo <- verdadeiro
         escreva("o triangulo ele é válido: ", triangulo)
     senao
         triangulo <- falso
         escreva("o triangulo é inválido: ", triangulo)
     fimse
-
-    
 
 fimalgoritmo
